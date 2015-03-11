@@ -1,7 +1,11 @@
 #include<iostream>
 using namespace std;
 
-// Returns value of Binomial Coefficient C(n, k)
+/*  Given a number n find the number of valid parentheses expressions of that length.
+    Input: 4
+    Output: 2
+    Possible valid expression of length 4 are "(())" and "()()" */
+
 unsigned long int binomialCoeff(unsigned int n, unsigned int k) {
     unsigned long int res = 1;
 
